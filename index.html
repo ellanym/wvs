@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wider View Studios</title>
+    <link rel="stylesheet" href="resources/css/styles.css"> 
+</head>
+<body>
+    <p>Hello there, welcome to the main website for Wider View Studios.<br><em><span class="under-construction">this website is currently under construction.</span></em></p> 
+
+    <details>
+        <summary id="wvs-toggle">what is Wider View Studios?</summary>
+         <p> Wider View Studios (aka <strong>wvs</strong>) is a company founded by Chris Rodriguez providing virtual admin, consulting and video/audio editing services to small business owners.</p>
+         <details>
+            <summary id="chris-toggle"> Who is Chris Rodriguez?</summary>
+            <p id="chris-toggle-p"> Chris is...</p>
+            <ul id="chris-toggle-ul">
+                <li> A virtual assistant with knowledge and experience in admin, accounting,  operations, and systems integration.</li>
+                <li> a Lover of Coffee, Seasonal Shifts, Systems, and Learning</li>
+                <li> Currently teaching themselves how to hand build websites</li>
+                <li> very Excited to see how they can help you in your business</li>
+
+            </ul>
+            <img id="chris-toggle-img" src="resources/images/Copy of 000069670032.jpg" alt="the founder of Wider View Studios, Chris, sitting at their desk working">
+         </details>
+    </details>
+    <br>    
+   <details>
+        <summary> Reach out & get in contact:</summary>
+    <p> Email: info@widerviewstudios.com</p>
+   </details>
+    
+    <!--- Today is Snippet-->
+    <div id="today-is"> 
+        <p>today is: <span id="currentDate"></span></p>
+        <script>
+            // Get the current date
+            const today = new Date();
+
+            // Format the date (e.g., MMMM/DD/YYYY)
+            const formattedDate = today.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+            // Display the date in the HTML
+            document.getElementById("currentDate").textContent = formattedDate;
+        </script> 
+    </div>
+</body>
+</html>

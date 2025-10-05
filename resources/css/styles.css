@@ -1,0 +1,54 @@
+body {
+    background-color: #fffff2;
+    color: #3f3e3e;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+#today-is {
+    position: fixed;
+    bottom: 0em; 
+    right: 1em;
+}
+
+.under-construction {
+    color: darkolivegreen;
+}
+
+/* The Main What is Wider View Studios Section */  
+
+details summary {
+    font-size: 2em;
+}
+
+details p {
+    margin-left: 2em; 
+}
+
+/* The Who is Chris Toggle Section */ 
+
+#chris-toggle {
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+
+#chris-toggle-p {
+    margin-left: 5em;
+}
+
+img {
+    width: 50%;
+}
+
+#chris-toggle-img {
+    margin-left: 5em;
+}
+
+#chris-toggle-ul {
+    margin-left: 5em;
+}
